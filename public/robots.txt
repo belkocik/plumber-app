@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://plumber-app-chakraui.vercel.app/
+
+# Sitemaps
+Sitemap: https://plumber-app-chakraui.vercel.app/sitemap.xml
+Sitemap: https://plumber-app-chakraui.vercel.app/server-sitemap.xml
