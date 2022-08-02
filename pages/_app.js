@@ -28,6 +28,21 @@ function MyApp({ Component, pageProps, router }) {
 
               site_name: "Instalacje Hydrauliczne Krzysztof Niedbalec - Dębica",
             }}
+            additionalLinkTags={[
+              {
+                rel: "icon",
+                href: "/favicon.ico",
+              },
+              {
+                rel: "apple-touch-icon",
+                href: "/icon.png",
+                sizes: "76x76",
+              },
+              {
+                rel: "manifest",
+                href: "/manifest.json",
+              },
+            ]}
           />
           <Component {...pageProps} key={router.route} />
         </AnimatePresence>

@@ -3,7 +3,7 @@ const withPWA = require("next-pwa");
 
 const nextConfig = withPWA({
   reactStrictMode: true,
-  // swcMinify: true,
+  swcMinify: true,
   concurrentFeatures: true,
   images: {
     domains: ["media.graphcms.com", "media.graphassets.com"],
